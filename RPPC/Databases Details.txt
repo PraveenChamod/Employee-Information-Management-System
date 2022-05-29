@@ -1,0 +1,12 @@
+
+
+Database name =  ems_db
+=========================================================================================================
+
+employee(Employee Details).
+
+create table employee(emp_no char(5), full_name varchar(100), age int(3), nic_no varchar(20), designation varchar(50), mobile_no int(10), neighbour_mobile_no int(10), address varchar(150), primary key(emp_no));
+
+create table employeetest(employeeNumber char(5), employeeFullName varchar(100), employeeAge int(3), employeIdNo varchar(20), designationColumn varchar(50), employeeMobileNo int(10), cousinMobileNo int(10), employeeAddress varchar(150), primary key(employeeNumber));
+
+	

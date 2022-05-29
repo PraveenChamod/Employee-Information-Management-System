@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1140.0" stylesheets="@../CSS_Files/AdminStylesheet.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller_Files.AdminPermissions">
+   <children>
+      <Pane fx:id="Pane1" prefHeight="640.0" prefWidth="250.0" stylesheets="@../CSS_Files/AdminStylesheet.css">
+         <children>
+            <Text fill="WHITE" layoutX="32.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin" textAlignment="CENTER" wrappingWidth="186.93673706054688">
+               <font>
+                  <Font name="Marlett" size="23.0" />
+               </font>
+            </Text>
+            <Button fx:id="AdminHomebtn" layoutY="109.0" mnemonicParsing="false" onAction="#AdminHome" prefHeight="47.0" prefWidth="250.0" text="Home">
+               <font>
+                  <Font name="Marlett" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="AdminOverviewbtn" layoutY="156.0" mnemonicParsing="false" onAction="#AdminOverview" prefHeight="47.0" prefWidth="250.0" text="Company Overview">
+               <font>
+                  <Font name="Marlett" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="AdminEmpStatus" layoutY="203.0" mnemonicParsing="false" onAction="#AdminEmpStatus" prefHeight="47.0" prefWidth="250.0" text="Employee Status">
+               <font>
+                  <Font name="Marlett" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="AdminAddEmpbtn" layoutY="250.0" mnemonicParsing="false" onAction="#AdminAddEmp" prefHeight="47.0" prefWidth="250.0" text="Add Employee">
+               <font>
+                  <Font name="Marlett" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="AdminRemoveEmpbtn" layoutY="297.0" mnemonicParsing="false" onAction="#AdminRemoveEmp" prefHeight="47.0" prefWidth="250.0" text="Remove Employee">
+               <font>
+                  <Font name="Marlett" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="AdminSalaryStatusbtn" layoutY="344.0" mnemonicParsing="false" onAction="#AdminSalaryStatus" prefHeight="47.0" prefWidth="250.0" text="Salary Status">
+               <font>
+                  <Font name="Marlett" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="AdminSelectedPermissionsbtn" layoutY="391.0" mnemonicParsing="false" onAction="#AdminPermissionsAction" prefHeight="47.0" prefWidth="250.0" text="Permissions">
+               <font>
+                  <Font name="Marlett" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="AdminLogoutbtn" layoutY="593.0" mnemonicParsing="false" onAction="#LogoutAction" prefHeight="47.0" prefWidth="250.0" text="Logout">
+               <font>
+                  <Font name="Marlett" size="19.0" />
+               </font>
+            </Button>
+            <Line endX="100.0" layoutX="125.0" layoutY="62.0" startX="-100.0" stroke="#00eaff" />
+         </children>
+      </Pane>
+      <Pane fx:id="Pane2" layoutX="250.0" prefHeight="640.0" prefWidth="910.0" stylesheets="@../CSS_Files/AdminStylesheet.css">
+         <children>
+            <Label layoutX="132.0" layoutY="113.0" text="Employee Number  :" textFill="WHITE">
+               <font>
+                  <Font name="Marlett" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="EmpPermissionNotxt" layoutX="370.0" layoutY="107.0" onAction="#EmpNo" onContextMenuRequested="#test" onMouseClicked="#test" onMousePressed="#test" prefHeight="30.0" prefWidth="409.0" stylesheets="@../CSS_Files/AdminStylesheet.css">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <Label layoutX="132.0" layoutY="172.0" text="Full Name  :" textFill="WHITE">
+               <font>
+                  <Font name="Marlett" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fnamePermissiontxt" layoutX="370.0" layoutY="166.0" onAction="#EmpFname" onContextMenuRequested="#test1" onMouseClicked="#test1" onMousePressed="#test1" prefHeight="30.0" prefWidth="409.0" stylesheets="@../CSS_Files/AdminStylesheet.css">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <Label layoutX="132.0" layoutY="232.0" text="NIC :" textFill="WHITE">
+               <font>
+                  <Font name="Marlett" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nicPermissiontxt" layoutX="370.0" layoutY="226.0" onAction="#EmpNIC" onMouseClicked="#test" prefHeight="30.0" prefWidth="409.0" stylesheets="@../CSS_Files/AdminStylesheet.css">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <Button fx:id="ApplyPermit" layoutX="132.0" layoutY="428.0" mnemonicParsing="false" onAction="#Empinfosubmit" prefHeight="52.0" prefWidth="223.0" stylesheets="@../CSS_Files/AdminStylesheet.css" text="Apply Permission" textAlignment="CENTER" textFill="#00df0f" wrapText="true">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Label layoutX="132.0" layoutY="292.0" text="User Name  :" textFill="WHITE">
+               <font>
+                  <Font name="Marlett" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="UserName" layoutX="370.0" layoutY="286.0" onAction="#EmpFname" onContextMenuRequested="#test1" onMouseClicked="#test1" onMousePressed="#test1" prefHeight="30.0" prefWidth="409.0" stylesheets="@../CSS_Files/AdminStylesheet.css">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <Label layoutX="132.0" layoutY="352.0" text="Default Password :" textFill="WHITE">
+               <font>
+                  <Font name="Marlett" size="20.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="UserPwd" layoutX="370.0" layoutY="350.0" prefHeight="30.0" prefWidth="409.0" stylesheets="@../CSS_Files/AdminStylesheet.css" />
+            <Button fx:id="DenyPermit" layoutX="556.0" layoutY="429.0" mnemonicParsing="false" onAction="#DenyPermission" prefHeight="50.0" prefWidth="223.0" stylesheets="@../CSS_Files/AdminStylesheet.css" text="Deny Permission" textAlignment="CENTER" textFill="#00df0f" wrapText="true">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

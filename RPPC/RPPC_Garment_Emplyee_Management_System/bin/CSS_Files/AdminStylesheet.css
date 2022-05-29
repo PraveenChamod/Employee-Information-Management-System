@@ -1,0 +1,169 @@
+#Pane1{
+	-fx-background-color:  linear-gradient(to top , #0A0708, #00308f );
+}
+#Pane2, #removeEmpPane{
+	-fx-background-color:  linear-gradient(to top , #0A0708, #00008b);
+}
+#Pane3{
+	-fx-background-color:  linear-gradient(to left , #00ccff, #00008b);
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:black;
+}
+
+#OverviewPane{
+	-fx-background-color:  linear-gradient(to top , #0A0708, #00308f );
+}
+
+#login, #loginpane{
+	-fx-background-color:  linear-gradient(to top , #33F6FF, #0038F7);
+}
+#border1, #border2, #border3, #border4{
+	-fx-border-color:#00EAFF;
+	-fx-border-radius:8px;
+}
+#AdminSelectedHomebtn, #AdminSalarySelectedStatusbtn, #SelectedOverviewbtn, #SelectedAdminAddEmpbtn, #SelectedAdminRemoveEmpbtn, #SelectedAdminEmpStatus, #AdminSelectedPermissionsbtn{
+	-fx-background-color:transparent;
+	-fx-text-fill:#00EAFF;
+	-fx-background-radius:0px;
+	-fx-border-color:#00EAFF;
+	-fx-border-radius:8px;
+}
+
+#uname, #pwdfield{
+	-fx-background-color:transparent;
+	-fx-text-fill:#000000;
+	-fx-background-radius:0px;
+	-fx-border-color:#00EAFF;
+	-fx-border-radius:8px;
+		
+}
+
+
+
+#loginbutton{
+	
+	-fx-background-color:transparent;
+	-fx-text-fill:#00EAFF;
+	-fx-background-radius:0px;
+	-fx-border-color:#00EAFF;
+	-fx-border-radius:8px;
+	
+	
+}
+
+#loginbutton:hover{
+	
+	-fx-text-fill:#fff;
+	-fx-background-color:#00ccff;
+	-fx-background-radius:8px;
+	
+	
+}
+
+
+#loginbutton:pressed{
+	-fx-text-fill:#fff;
+	-fx-background-color:#2692D0;
+	-fx-background-radius:8px;
+	-fx-border-color:#2692D0;
+	
+	
+	
+}
+
+
+#AdminSelectedHomebtn:hover,  #AdminSalarySelectedStatusbtn:hover, #AdminSelectedPermissionsbtn:hover, #SelectedOverviewbtn:hover, #SelectedAdminAddEmpbtn:hover, #SelectedAdminRemoveEmpbtn:hover, #SelectedAdminEmpStatus:hover{
+	-fx-text-fill:#fff;
+	-fx-background-color:#00ccff;
+	-fx-background-radius:8px;
+}
+#AdminSelectedHomebtn:pressed, #AdminSalarySelectedStatusbtn:pressed, #AdminSelectedPermissionsbtn:pressed, #SelectedOverviewbtn:pressed, #SelectedAdminAddEmpbtn:pressed, #SelectedAdminRemoveEmpbtn:pressed, #SelectedAdminEmpStatus:pressed{
+	-fx-text-fill:#fff;
+	-fx-background-color:#2692D0;
+	-fx-background-radius:8px;
+	-fx-border-color:#2692D0;
+}
+/*For Admin Home control panel buttons */
+#AdminHomebtn, #AdminOverviewbtn, #AdminEmpStatus, #AdminAddEmpbtn, #AdminRemoveEmpbtn, #AdminSalaryStatusbtn, #AdminPermissionsbtn{
+	-fx-background-color:transparent;
+	-fx-text-fill:#fff;
+	-fx-background-radius:8px;
+}
+#AdminHomebtn:hover, #AdminOverviewbtn:hover, #AdminEmpStatus:hover, #AdminAddEmpbtn:hover, #AdminRemoveEmpbtn:hover, #AdminSalaryStatusbtn:hover, #AdminPermissionsbtn:hover{
+	-fx-background-color:#00ccff;
+	-fx-background-radius:8px;
+}
+#AdminHomebtn:pressed, #AdminOverviewbtn:pressed, #AdminEmpStatus:pressed, #AdminAddEmpbtn:pressed, #AdminRemoveEmpbtn:pressed, #AdminSalaryStatusbtn:pressed, #AdminPermissionsbtn:pressed{
+	-fx-background-color:#2692D0;
+	-fx-background-radius:8px;
+}
+#AdminOverviewbtnFeature, #AdminEmpStatusFeature, #AdminAddEmpbtnFeature, #AdminRemoveEmpbtnFeature, #AdminSalaryStatusbtnFeature, #AdminPermissionsbtnFeature{
+	-fx-background-color:transparent;
+	-fx-border-color:#00ccff;
+	-fx-text-fill:#00EAFF;
+	-fx-border-radius:10px;
+}
+#AdminOverviewbtnFeature:hover, #AdminEmpStatusFeature:hover, #AdminAddEmpbtnFeature:hover, #AdminRemoveEmpbtnFeature:hover, #AdminSalaryStatusbtnFeature:hover, #AdminPermissionsbtnFeature:hover{
+	-fx-background-color:#00ccff;
+	-fx-text-fill:#fff;
+	-fx-background-radius:10px;
+}
+#AdminOverviewbtnFeature:pressed, #AdminEmpStatusFeature:pressed, #AdminAddEmpbtnFeature:pressed, #AdminRemoveEmpbtnFeature:pressed, #AdminSalaryStatusbtnFeature:pressed, #AdminPermissionsbtnFeature:pressed{
+	-fx-background-color:#2692D0;
+	-fx-text-fill:#fff;
+	-fx-background-radius:10px;
+}
+#AdminLogoutbtn, #removeEmpbtn{
+	-fx-background-color:transparent;
+	-fx-border-color:#F50912;
+	-fx-text-fill:#F50912;
+	-fx-border-radius:8px;
+}
+#AdminLogoutbtn:hover, #removeEmpbtn:hover{
+	-fx-background-color:#F50912;
+	-fx-background-radius:8px;
+	-fx-text-fill:#fff;
+}
+#AdminLogoutbtn:pressed, #removeEmpbtn:pressed{
+	-fx-background-color:#7B0509;
+	-fx-background-radius:8px;
+	-fx-text-fill:#fff;
+	-fx-border-color:#7B0509;
+}
+
+
+#EmpNotxt, #GeneralPay, #MonthPay, #fnametxt, #OTPay, #agetxt, #EmpPermissionNotxt, #UserName, #UserPwd, #fnamePermissiontxt, #nicPermissiontxt, #nictxt, #telnotxt, #cousintelnotxt, #addresstxt, #designationtxt, #checkEmpNotxt, #checknictxt, #checkdesignationtxt{
+	/*-fx-background-color:#00ccff;*/
+	-fx-background-color:linear-gradient(to bottom ,#00ccff, #2692D0 );
+	/*-fx-background-color:#00ccff;*/
+	-fx-border-color:#00ccff;
+	-fx-text-fill:#fff;
+}
+#submitempbtn, #checkempbtn, #viewinfo, #ApplyPermit, #DenyPermit{
+	-fx-background-color:transparent;
+	-fx-text-fill: #00df0f;
+	-fx-border-color: #00df0f;
+	-fx-border-radius:7px;
+	-fx-border-width:1.25px;
+}
+#submitempbtn:hover, #checkempbtn:hover, #viewinfo:hover, #DenyPermit:hover, #ApplyPermit:hover{
+	-fx-background-color:#00df0f;
+	-fx-text-fill:#fff;	
+	-fx-background-radius:7px;
+	-fx-border-color: #32FF6A;
+	-fx-border-width:1.25px;
+}
+#submitempbtn:pressed, #checkempbtn:pressed, #viewinfo:pressed, #ApplyPermit:pressed, #DenyPermit:pressed{
+	-fx-background-color:linear-gradient(to bottom ,#00df0f, #018383 );
+	-fx-text-fill:#fff;
+	-fx-background-radius:7px;
+	-fx-border-color: #32FF6A;
+	-fx-border-width:1.25px;
+}
+
+
+
+
+
