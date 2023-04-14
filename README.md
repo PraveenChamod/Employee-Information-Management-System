@@ -9,10 +9,10 @@ In this repository I have created a JavaFX program for Employee Management Syste
 3. Calculating the salary of each employee
 4. Updating User
 
+![RPPC_Project](https://user-images.githubusercontent.com/86168078/231932786-7b54c5d8-0f9e-4732-86ce-9925e712e4f3.png)
+
 ## Project Overview
 All the implementation details and process workflow of the project can be viewed using this [link](https://www.linkedin.com/posts/praveen-chamod-4a634b217_java-javafx-mysql-activity-6936492125823844352-5VP4?utm_source=share&utm_medium=member_desktop)
 
 ## Project Development
 Instead of saving the documents in a drive, have them in a single place against respective employees, I've planned implement this system for using both employees and Admin can use them whenever they want to. With the self-service option for the employees, they can change their personal and professional information, view their time-off reports, or look into appraisal history.
-
-![RPPC_Project](https://user-images.githubusercontent.com/86168078/231932786-7b54c5d8-0f9e-4732-86ce-9925e712e4f3.png)
