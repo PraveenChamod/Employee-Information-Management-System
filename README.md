@@ -15,4 +15,4 @@ All the implementation details and process workflow of the project can be viewed
 ## Project Development
 Instead of saving the documents in a drive, have them in a single place against respective employees, I've planned implement this system for using both employees and Admin can use them whenever they want to. With the self-service option for the employees, they can change their personal and professional information, view their time-off reports, or look into appraisal history.
 
-![Artboard 1](https://user-images.githubusercontent.com/RPPC_Project.png)
+![RPPC_Project](https://user-images.githubusercontent.com/86168078/231932786-7b54c5d8-0f9e-4732-86ce-9925e712e4f3.png)
